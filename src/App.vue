@@ -1,4 +1,4 @@
-<template>
+∑<template>
   <v-app>
     <v-app-bar app color="primary" dark>
       <v-toolbar-title>Taste Profile</v-toolbar-title>
@@ -37,20 +37,16 @@ export default Vue.extend({
     return {
       links: [
         {
-          label: 'Home',
+          label: 'About',
           url: '/'
         },
         {
-          label: 'Login',
+          label: 'Log in',
           url: '/login'
         },
         {
-          label: 'Signup',
+          label: 'Sign up',
           url: '/signup'
-        },
-        {
-          label: 'Dashboard',
-          url: '/dashboard'
         }
       ]
     };
