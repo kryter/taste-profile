@@ -72,10 +72,10 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import Component from 'vue-class-component';
 
-export default Vue.extend({
+@Component({
   name: 'HelloWorld',
-
   data: () => ({
     ecosystem: [
       {
@@ -128,5 +128,6 @@ export default Vue.extend({
       }
     ]
   })
-});
+})
+export default class HelloWorld extends Vue {}
 </script>
