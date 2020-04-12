@@ -39,3 +39,7 @@ yarn lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Acknowledgements
+
+Thank you to https://favicon.io/favicon-generator/ for generating the favicon.
