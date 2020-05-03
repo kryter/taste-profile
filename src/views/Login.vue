@@ -17,8 +17,6 @@
     </v-card-text>
     <v-divider></v-divider>
     <v-card-actions>
-      <v-btn color="success">Sign up</v-btn>
-      <v-spacer></v-spacer>
       <v-btn color="info">Log in</v-btn>
     </v-card-actions>
   </v-card>
